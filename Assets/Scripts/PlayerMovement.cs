@@ -8,8 +8,8 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 1.5f;
-    public float jumpForce = 4.5f;
+    public float moveSpeed = 5f;
+    public float jumpForce = 7f;
 
     [Header("Ground Detection")]
     public float groundNormalThreshold = 0.5f;
